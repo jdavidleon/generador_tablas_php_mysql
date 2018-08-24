@@ -1,0 +1,24 @@
+<?php 
+
+	/*******************-Conexión a Base de Datos-********************/
+
+	define("nombre_servidor","localhost");
+	define("usuario","root");
+	define("clave","");
+	define("base_datos","finanzas");
+	/*******************-Conexión a Base de Datos-********************/
+
+
+
+	define("URL_BASE", "/finanzas/");
+	define("DIRECTORIO_ROOT",$_SERVER["DOCUMENT_ROOT"] . "/finanzas/");
+	define('URL_PAGE', '/finanzas/');
+	define('ASSETS', URL_BASE.'assets/');
+	
+
+
+
+	require DIRECTORIO_ROOT.'config/autoload.php';
+	
+	
+	
